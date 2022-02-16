@@ -1,9 +1,9 @@
 --"lua datediff"
-adr_time_on         = '32/4/1'             --10 3byte time/day
-adr_date_on         = '32/4/2'             --11 3byte date
-adr_time_off        = '32/4/3'             --10 3byte time/day
-adr_date_off        = '32/4/4'             --11 3byte date
-adr_time_difference = '32/4/5'              --14 4byte floating point ["s."]
+adr_time_on         = '32/1/1'             --10 3byte time/day
+adr_date_on         = '32/1/2'             --11 3byte date
+adr_time_off        = '32/1/3'             --10 3byte time/day
+adr_date_off        = '32/1/4'             --11 3byte date
+adr_time_difference = '32/1/5'              --14 4byte floating point ["s."]
 
 time_on     = grp.getvalue(adr_time_on)
 date_on     = grp.getvalue(adr_date_on)
